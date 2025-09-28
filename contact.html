@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>NEUROVIBE</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Free HTML Templates" name="keywords" />
+    <meta content="Free HTML Templates" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-light position-relative shadow">
+      <nav
+        class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5"
+      >
+        <a
+          href=""
+          class="navbar-brand font-weight-bold text-secondary"
+          style="font-size: 50px"
+        >
+          <i class="flaticon-043-panther"></i>
+          <span class="text-primary">NEUROVIBE</span>
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="navbarCollapse"
+        >
+          <div class="navbar-nav font-weight-bold mx-auto py-0">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="about.html" class="nav-item nav-link">Nosotros</a>
+            <a href="class.html" class="nav-item nav-link">Manual</a>
+            <a href="team.html" class="nav-item nav-link">Personal</a>
+            <a href="gallery.html" class="nav-item nav-link">Galeria</a>
+            
+            <a href="contact.html" class="nav-item nav-link active">Contactanos</a>
+          </div>
+          
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary mb-5">
+      <div
+        class="d-flex flex-column align-items-center justify-content-center"
+        style="min-height: 400px"
+      >
+        <h3 class="display-3 font-weight-bold text-white">Contactanos</h3>
+        <div class="d-inline-flex text-white">
+          <p class="m-0"><a class="text-white" href="">Home</a></p>
+          <p class="m-0 px-2">/</p>
+          <p class="m-0">Contactanos</p>
+        </div>
+      </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Contact Start -->
+    <div class="container-fluid pt-5">
+      <div class="container">
+        <div class="text-center pb-2">
+          <p class="section-title px-5">
+            <span class="px-2">Ponerse en contacto</span>
+          </p>
+            <h1 class="mb-4">¡REGISTRATE!</h1>
+        </div>
+        <div class="row">
+          <div class="col-lg-7 mb-5">
+            <div class="contact-form">
+              <div id="success"></div>
+              <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                <div class="control-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="ap"
+                    placeholder="Apellido paterno"
+                    required="required"
+                    data-validation-required-message="Ingrese su apellido paterno"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="am"
+                    placeholder="Apellido materno"
+                    required="required"
+                    data-validation-required-message="Ingrese su apellido materno"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="nombres"
+                    placeholder="Nombres"
+                    required="required"
+                    data-validation-required-message="Ingrese sus nombres"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="curp"
+                    placeholder="CURP"
+                    required="required"
+                    data-validation-required-message="Ingrese su Curp"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="telefono"
+                    placeholder="Telefono"
+                    required="required"
+                    data-validation-required-message="Ingrese su telefono"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                  
+                  <select name="Sexo/Genero"  
+                  class="form-control"
+                  required="required"
+                  data-validation-required-message="Please enter your email">
+                    <option selected>Sexo/Genero</option>
+                  <option>Masculino</option>
+                  <option>Femenino</option>
+                  <option>No binario</option>
+                  </select>
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                  <input
+                    type="date"
+                    class="form-control"
+                    id="Fecha_nacimiento"
+                    placeholder="Fecha de nacimiento"
+                    required="required"
+                    data-validation-required-message="Ingrese su fecha de nacimiento"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Correo electronico"
+                    required="required"
+                    data-validation-required-message="Ingrese su correo electronico"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="calle"
+                    placeholder="Calle"
+                    required="required"
+                    data-validation-required-message="Ingrese su Calle"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exterior"
+                    placeholder="Numero exterior"
+                    required="required"
+                    data-validation-required-message="Ingrese su numero exterior"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="interior"
+                    placeholder="Numero interior"
+                    required="required"
+                    data-validation-required-message="Ingrese su numero interior"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="entre_calles"
+                    placeholder="Entre calles"
+                    required="required"
+                    data-validation-required-message="Ingrese sus calles"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="colonia"
+                    placeholder="Colonia"
+                    required="required"
+                    data-validation-required-message="Ingrese su colonia"
+                  />
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                  <textarea
+                    class="form-control"
+                    rows="6"
+                    id="message"
+                    placeholder="Message"
+                    required="required"
+                    data-validation-required-message="Please enter your message"
+                  ></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div>
+                  <button
+                    class="btn btn-primary py-2 px-4"
+                    type="submit"
+                    id="sendMessageButton"
+                  >
+                    Enviar datos
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-5 mb-5">
+            <p>
+             .
+            </p>
+            <div class="d-flex">
+              <i
+                class="fa fa-map-marker-alt d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle"
+                style="width: 45px; height: 45px"
+              ></i>
+              <div class="pl-3">
+                <h5>Direccion</h5>
+                <p>DIRECCION DE LA EMPRESA</p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <i
+                class="fa fa-envelope d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle"
+                style="width: 45px; height: 45px"
+              ></i>
+              <div class="pl-3">
+                <h5>Email</h5>
+                <p>neurovibe@gmial.com</p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <i
+                class="fa fa-phone-alt d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle"
+                style="width: 45px; height: 45px"
+              ></i>
+              <div class="pl-3">
+                <h5>Phone</h5>
+                <p>+52 999 116 5999</p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <i
+                class="far fa-clock d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle"
+                style="width: 45px; height: 45px"
+              ></i>
+              <div class="pl-3">
+                <h5>Horario abierto</h5>
+                <strong>Lunes - Viernes:</strong>
+                <p class="m-0">07:00 AM - 03:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact End -->
+
+  </body>
+</html>
